@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+venv_py39/
+venv_tf215/
+env/
+.venv/
+
+# Datasets
+data/
+data_new/
+
+# Models
+model/
+*.h5
+*.pth
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Flask
+instance/
+
+# Env files
+.env
+
+# IDE
+.vscode/
+.idea/
